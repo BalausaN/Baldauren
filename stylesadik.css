@@ -1,0 +1,301 @@
+* {
+  box-sizing: border-box;
+}
+a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-weight: 400;
+}
+.navbar-toggler {
+  padding-left: 20%;
+}
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+  break-before: 25px;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.icon-file-empty:before {
+  content: "\e924";
+}
+.slider {
+  background-image: url(https://www.toddlerfunlearning.com/wp-content/uploads/2018/02/pexels-photo-225017.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-height: 500px;
+}
+.slider__text {
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10;
+  font-size: 150%;
+  filter: none;
+}
+.slider__title {
+  color: white;
+  text-align: center;
+  padding-top: 15%;
+  font-size: 300%;
+  font-weight: 700;
+  text-shadow: #434343;
+  filter: none;
+}
+.slider {
+  background-color: aliceblue;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+}
+.slider__text2 {
+  color: rgb(3, 0, 80);
+  text-align: left;
+  padding: 0% 5% 0% 5%;
+  font-size: 20px;
+  padding-bottom: 50px;
+  filter: none;
+}
+.slider__title2 {
+  color: rgb(29, 27, 80);
+  text-align: left;
+  padding-top: 30px;
+  padding: 10% 5% 0% 5%;
+  font-size: 230%;
+  font-weight: 700;
+  filter: none;
+}
+.about__btn {
+  font-family: "Roboto", sans-serif;
+  padding: 2% 0% 5% 0%;
+}
+
+.news__title-box:before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0%;
+  top: 0%;
+}
+.news__title-box {
+  max-width: 100%;
+  position: relative;
+}
+.news__title {
+  font-size: 230%;
+  font-weight: 700;
+  padding: 3% 0% 1% 1.5%;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  width: 50%;
+}
+.news__btn,
+.team__btn {
+  position: relative;
+  margin-left: 5%;
+}
+.slider3 {
+  background-color: rgb(3, 0, 80);
+  max-height: 200%;
+  height: 200%;
+  padding-top: 5%;
+  padding-bottom: 8%;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-family: "Roboto", sans-serif;
+}
+
+.card {
+  max-width: 350px;
+  width: 100%;
+  align-content: center;
+  margin-bottom: 20px;
+}
+.card img {
+  padding-top: 0%;
+  width: 100%;
+  height: 150px;
+}
+.card:hover {
+  background-color: rgb(176, 176, 176);
+}
+.card-title {
+  text-decoration: none;
+  color: black;
+}
+button {
+  border: none;
+  background-color: transparent;
+  size: 100px;
+}
+.container-page {
+  width: 90%;
+  padding-left: 10%;
+  padding-right: 0%;
+}
+.news_page-text {
+  padding: 2% 10% 10% 10%;
+}
+.news_page-title {
+  padding: 0% 10% 2% 10%;
+}
+.btn_news-page {
+  padding: 10% 10% 5% 10%;
+}
+.news__page-image {
+  padding: 0% 10% 0% 10%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section.gallery {
+  position: relative;
+  padding: 45px;
+}
+h2.title {
+  font-size: 230%;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 45px;
+  position: relative;
+}
+h2.title:after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 3px;
+  background-color: black;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.gallery-list {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  font-size: 0;
+}
+.gallery-item {
+  display: block;
+  flex: 25%;
+  width: 25%;
+  overflow: hidden;
+  position: relative;
+}
+.gallery-item img {
+  max-width: 100%;
+  height: auto;
+}
+.gallery-item-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  opacity: 0;
+}
+.gallery-item:hover .gallery-item-hover {
+  opacity: 1;
+}
+.slider4 {
+  background-color: rgb(158, 158, 158);
+  max-height: 200%;
+  height: 200%;
+  padding-top: 5%;
+  padding-bottom: 8%;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  padding: 2% 0% 0% 1%;
+  font-weight: 700;
+  font-size: 230%;
+  color: white;
+}
+.card-2 {
+  background-color: white;
+  border-radius: 1em;
+  text-align: center;
+  padding: 1em;
+  margin: 0%;
+}
+.card-2:hover {
+  background-color: rgb(221, 221, 221);
+}
+.card-2 img {
+  border-radius: 50%;
+  width: 70%;
+  margin: auto;
+}
+.card-2-title {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  padding-top: 5px;
+}
+.card-2-text {
+  color: black;
+}
+button.card-2 {
+  border: none;
+  background-color: white;
+  src: url(../site/images/kindergarden.jpg);
+}
+.gallery__btn {
+  padding-top: 3%;
+}
+.social a {
+  text-align: center;
+  width: 48px;
+  height: 48px;
+  float: left;
+  background: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15), inset 0 0 50px rgba(0, 0, 0, 0.1);
+  border-radius: 24px;
+  margin: 0 10px 10px 0;
+  padding: 6px;
+  color: #000;
+}
+.instagram a:hover {
+  background: #3f729b;
+  color: #fff;
+}
+.facebook a:hover {
+  background: #3b5998;
+  color: #fff;
+}
+section.end {
+  color: #1c1c1c;
+  height: 20%;
+}
+.bg_black {
+  background: #353534;
+  color: rgb(255, 255, 255);
+}
+.bg_black2 {
+  background: #252524;
+  color: #fff;
+}
